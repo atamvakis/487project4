@@ -1,0 +1,23 @@
+/*Color Definitions
+Yellow: #c4a006
+Dark Blue: #092940
+*/
+
+#map {
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#view-selection{
+  border-top: 2px #092940 solid;
+  padding:2px;
+}
+
+.tab-text{
+  color:black;
+}
