@@ -45,20 +45,20 @@
   </nav>
 
   <!-- View Selection Tabs-->
-  <ul class="nav nav-tabs justify-content-center">
-    <li class="active nav-item"><a data-toggle="tab" class="nav-link" href="#map-view">Map View</a></li>
-    <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#list-view">List View</a></li>
+  <ul id="tab-nav" class="nav nav-tabs justify-content-center sticky-top">
+    <li class="active nav-item"><a id="mapTab" data-toggle="tab" class="tab-text nav-link" href="#map-view">Map View</a></li>
+    <li class="nav-item"><a data-toggle="tab" class="tab-text nav-link" href="#list-view">List View</a></li>
   </ul>
+
 
   <!--Content-->
   <div class="tab-content">
     <div id="map-view" class="tab-pane in active">
-      <h1>Map</h1>
-      <div id="map"></div>
+        <div id="map"></div>
     </div>
     <div id="list-view" class="tab-pane fade">
-      <h3>List View</h3>
-      <p>Some content.</p>
+      <h1 id="list-title">North Carolina State Historic Sites</h1>
+      <div id="list"></div>
     </div>
   </div>
 

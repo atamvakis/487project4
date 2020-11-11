@@ -2,22 +2,37 @@
 Yellow: #c4a006
 Dark Blue: #092940
 */
-
-#map {
-  height: 100%;
-}
-
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-#view-selection{
+#map {
+  height:100vh;
+}
+
+#tab-nav{
+  background-color: white;
   border-top: 2px #092940 solid;
   padding:2px;
 }
 
 .tab-text{
   color:black;
+}
+
+.tab-text:hover {
+  color: #c4a006;
+}
+
+
+#list-title{
+  text-align: center;
+  padding:5px;
+}
+
+.listItem{
+  padding:2px;
+  list-style: none;
 }

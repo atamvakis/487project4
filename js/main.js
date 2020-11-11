@@ -109,17 +109,19 @@ var markers = [
     content: '<h3>Zebulon B. Vance Birthplace</h3>'
   }
 ];
+var listBuilder = "";
 
 $(document).ready( function () {
     console.log("jQuery Loaded");
+    buildList();
 });
 
 
 function initMap() {
   //Map Options, Map centered on NC
   var options = {
-    zoom: 7,
-    center: { lat: 35.746024, lng: -79.198375 }
+    zoom: 8,
+    center: { lat: 34.943999, lng: -79.242320}
   }
 
   //Create Map
@@ -149,4 +151,19 @@ function initMap() {
 
   }
 
+}
+
+//Create the List
+function buildList(){
+  var list = document.getElementById("list")
+
+  listBuilder += "<ul>";
+
+  for(var i = 0; i < markers.length; i++){
+    listBuilder += "<li class='listItem'>"+markers[i].content+"</li>"
+  }
+
+  listBuilder += "</ul>";
+
+  list.innerHTML = listBuilder;
 }
