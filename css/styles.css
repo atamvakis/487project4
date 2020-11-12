@@ -26,6 +26,17 @@ html, body {
   color: #c4a006;
 }
 
+.window{
+  max-width:25%;
+}
+
+.dialogLink{
+  padding:5px;
+}
+
+.windowImg{
+  height:200px;
+}
 
 #list-title{
   text-align: center;
@@ -33,6 +44,10 @@ html, body {
 }
 
 .listItem{
-  padding:2px;
+  padding-bottom:20px;
   list-style: none;
+}
+
+.listImg{
+  max-width:100%;
 }
