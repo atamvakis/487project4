@@ -30,16 +30,40 @@ html, body {
   max-width:25%;
 }
 
-.dialogLink{
-  padding:5px;
-}
-
 #dialogBuilder{
   display:none;
 }
 
+.ui-dialog-titlebar {
+  background:#c4a006;
+}
+
 .windowImg{
   height:200px;
+  padding:10px;
+}
+
+.windowText{
+  font-size: 17px;
+}
+
+.modalLink{
+  font-size:15px;
+  color:#c4a006;
+}
+
+.modalLink:hover{
+  text-decoration: none;
+  color:black;
+}
+
+.listLink{
+  color:#c4a006;
+}
+
+.listLink:hover{
+  text-decoration: none;
+  color:black;
 }
 
 #list-title{
@@ -54,4 +78,13 @@ html, body {
 
 .listImg{
   max-width:100%;
+}
+
+#shs-site{
+  color:#c4a006;
+}
+
+#shs-site:hover{
+  text-decoration: none;
+  color:black;
 }
